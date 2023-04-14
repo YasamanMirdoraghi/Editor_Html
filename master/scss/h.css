@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #945899, #8f59a0, #995aa8);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head button {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  margin-left: 500px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+}
+
+.head button:hover {
+  border: 1px solid #4d2766;
+}
+
+.result {
+  width: 500px;
+  height: 500px;
+  margin-top: 40px;
+  background-color: #bdadb7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input {
+  width: 500px;
+  height: 500px;
+  background-color: #bdadb7;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+.input::-webkit-input-placeholder {
+  font-size: 20px;
+}
+
+.input:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+.input::-ms-input-placeholder {
+  font-size: 20px;
+}
+
+.input::placeholder {
+  font-size: 20px;
+}
+/*# sourceMappingURL=h.css.map */
